@@ -57,3 +57,6 @@ const textoMinuscula = "alura";
 
 console.log(textoMaiuscula === textoMinuscula);
 
+// null -> ausência de valor, valor nulo, foi iniciada
+// undefined -> não foi inicializada, nenhum valor foi atribuído a ela
+
