@@ -14,3 +14,9 @@ function Cliente(nome, cpf, email, saldo) {
 const samanta = new Cliente('Samanta', '1213829', 'samanta@gmail.com', 100);
 
 console.log(samanta);
+
+console.log(samanta.hasOwnProperty("saldo")); // true
+console.log(samanta instanceof Cliente); // true
+console.log(typeof samanta); // object
+console.log(Function.prototype.isPrototypeOf(Cliente)); // true
+console.log(Cliente.constructor === Function); // TRUE
