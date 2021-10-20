@@ -5,6 +5,10 @@ const salaJS = [7, 8, 8, 7, 10, 6.5, 4, 10, 7]; // média 7.5
 const salaJava = [6, 5, 8, 9, 5, 6]; // média 6.5
 const salaPython = [7, 3.5, 8, 9.5]; // média 7
 
+// 2 params
+// 1 -> função callback (com 2 params -> acumulador e atual)
+// 2 -> '0' -> representa o valor inicial
+
 // valor atual -> valor atual do loop
 // acumulador -> de cada loop
 // 0 -> número neutro, valor que vai ser acumulado (pode começar com qualquer valor)
